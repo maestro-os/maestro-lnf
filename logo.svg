@@ -11,12 +11,6 @@
 			<stop offset="85.7%" stop-color="oklch(75% 0.15 270)" />
 			<stop offset="100%" stop-color="oklch(75% 0.15 315)" />
 		</linearGradient>
-		<filter id="noise" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
-			<feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="4" seed="15" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="turbulence" />
-			<feSpecularLighting surfaceScale="15" specularConstant="0.75" specularExponent="20" lighting-color="#404040" x="0%" y="0%" width="100%" height="100%" in="turbulence" result="specularLighting">
-				<feDistantLight azimuth="3" elevation="100" />
-			</feSpecularLighting>
-		</filter>
 		<filter id="blur" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 			<feGaussianBlur stdDeviation="17 8" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" />
 		</filter>
@@ -32,6 +26,5 @@
 		<use transform="translate(200, 800) rotate(-140) scale(0.75)" href="#feather" />
 	</clipPath>
 	<use transform="translate(200, 800) rotate(-140) scale(0.75)" href="#feather" />
-	<rect clip-path="url(#feather-mask)" x="0" y="0" width="100%" height="100%" stroke="none" filter="url(#noise)" />
 	<path d="M 0 0 Q 100 0 200 -50 Q 300 -100 500 -100 Q 300 -120 200 -70 Q 100 -20 0 0 z" fill="#fff" stroke="none" transform="translate(205, 805)" />
 </svg>
