@@ -16,6 +16,6 @@
 			<path d="M 0 0 Q 20 350 20 500 Q 20 750 0 1000 z" fill="#505050" stroke="none" transform="scale(1, 0.6)" />
 		</g>
 	</defs>
-	<use transform="translate(200, 800) rotate(-140) scale(0.75)" href="#feather" />
-	<path d="M 0 0 Q 100 0 200 -50 Q 300 -100 500 -100 Q 300 -120 200 -70 Q 100 -20 0 0 z" fill="#000" stroke="none" transform="translate(205, 805)" />
+	<use transform="translate(250, 780) rotate(-140) scale(0.75)" href="#feather" />
+	<path d="M 0 0 Q 100 0 200 -50 Q 300 -100 500 -100 Q 300 -120 200 -70 Q 100 -20 0 0 z" fill="#000" stroke="none" transform="translate(255, 785)" />
 </svg>
